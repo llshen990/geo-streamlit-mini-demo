@@ -1,0 +1,15 @@
+name: geo-demo
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - geopandas>=0.14
+  - shapely>=2.0
+  - pyproj>=3.5
+  - fiona
+  - pandas>=2.0
+  - numpy>=1.24
+  - pip
+  - pip:
+      - streamlit>=1.32
+      - pydeck>=0.8
